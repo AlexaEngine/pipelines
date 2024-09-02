@@ -2,9 +2,9 @@
   "name": "my-node-app",
   "version": "1.0.0",
   "type": "module",
-"scripts": {
-  "test": "mocha test/test.js"
-},
+  "scripts": {
+    "test": "mocha --loader esm test/test.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
