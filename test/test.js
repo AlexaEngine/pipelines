@@ -1,9 +1,10 @@
-const chai = require('chai');
-const chaiHttp = require('chai-http');
+import chai from 'chai';
+import chaiHttp from 'chai-http';
+
 const { expect } = chai;
 chai.use(chaiHttp);
 
-const app = require('../index'); // Assuming index.js is in the root folder
+const app = require('../index'); 
 
 describe('GET /', () => {
   it('should return "Hello World"', (done) => {
